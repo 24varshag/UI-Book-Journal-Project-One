@@ -1,0 +1,113 @@
+#content {
+  overflow: auto;
+  display: flex;
+  margin: 0.5em;
+  gap: 1%;
+}
+
+.column1 {
+  flex-grow: 1;
+}
+
+.column2 {
+}
+
+.JournalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  background-color: var(--tea-rose-red);
+  border-bottom: none;
+  border: 1px solid black;
+  border-bottom: none;
+}
+
+.JournalEntryPanel {
+  .bookDetails {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  border: 1px solid black;
+  border-top: none;
+}
+.JournalEntryPanel {
+  /* max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease; */
+  background-color: var(--misty-rose);
+  .journalEntry {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top: 0px;
+    padding-top: 20px;
+    /* border: 1px solid black; */
+    .userDetails {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .activityInputs {
+    display: flex;
+    flex-direction: column;
+    /* margin: 20px; */
+  }
+}
+.JournalEntryPanel.open {
+  /* max-height: 600px;  */
+}
+
+.selectBookJournalDiv {
+  display: flex;
+  flex-direction: column;
+  .selectBookJournal {
+    height: 34px;
+    font-size: 16px;
+  }
+}
+
+.chaptersTime {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+  .chapterStart,
+  .chapterEnd,
+  .timeSpent {
+    width: 100px;
+    height: 30px;
+    border: 1px soldi black;
+  }
+  .journalAttr {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.userName,
+.date {
+  height: 30px;
+  width: 250px;
+}
+
+.entryTextBox {
+  margin: 20px;
+  border: 1px solid black;
+  background-color: #ffffff9d;
+  width: calc(100% - 40px);
+  height: 170px;
+}
+
+.submitButton {
+  padding: 5px;
+  margin-bottom: 20px;
+  width: 150px;
+  text-transform: capitalize;
+  font-size: 16px;
+  background-color: var(--tea-rose-red);
+  border: none;
+  cursor: pointer;
+}

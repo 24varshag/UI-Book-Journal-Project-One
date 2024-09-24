@@ -1,0 +1,64 @@
+/* FEATURE BLOCK */
+.feature {
+  display: flex;
+  margin: 0.5em;
+  gap: 1%;
+}
+
+.item {
+  flex-grow: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
+  h4 {
+    padding: 0px;
+    margin: 0px 10px;
+  }
+}
+
+.item1 {
+  border: 1px solid black;
+}
+
+.setGoal {
+  /* border: 1px solid black; */
+}
+
+.newGoal {
+  width: 460px;
+  height: 70px;
+}
+
+/* GOAL BAR*/
+/* .barContainer {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+} */
+.goalHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar {
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-grow: 1;
+  margin: 5px 10px;
+}
+
+.progress {
+  background-color: pink;
+  border-radius: 10px;
+  text-align: right;
+  padding-right: 10px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.barDetails {
+  text-align: right;
+  margin: 0px 10px;
+}

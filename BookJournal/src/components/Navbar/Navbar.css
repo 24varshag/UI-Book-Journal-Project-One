@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+
+  .navbarTitle {
+    color: #004753;
+    font-size: 50px;
+    font-family: "Abril Fatface", serif;
+    margin-bottom: 0px;
+  }
+  .userEntryDetails {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.noTop {
+  margin-top: 0px;
+}
+.navbarRightComponents {
+  display: flex;
+  align-items: center;
+  .navbarButton {
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    text-transform: capitalize;
+    font-size: 16px;
+    background-color: #efc587;
+    border: none;
+    cursor: pointer;
+    /* text-transform: uppercase; */
+  }
+}
+
+.navbarButton2 {
+  padding: 10px;
+  margin: 10px;
+  text-transform: capitalize;
+  font-size: 16px;
+  background-color: #efc587;
+  border: none;
+  cursor: pointer;
+  /* text-transform: uppercase; */
+}

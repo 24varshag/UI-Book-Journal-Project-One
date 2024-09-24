@@ -1,0 +1,81 @@
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+}
+.close {
+  float: right;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+/* MY LIBRARY */
+.library {
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.libraryHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  background-color: antiquewhite;
+}
+
+.addBookButton {
+  padding: 5px;
+  margin: 10px;
+  margin-right: 0px;
+  width: 150px;
+  text-transform: capitalize;
+  font-size: 16px;
+  background-color: #efc587;
+  border: none;
+  cursor: pointer;
+}
+
+.bookShelf {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookselfBorder {
+  stroke: var(--slate);
+  stroke-width: 12;
+}
+
+.ratingsDiv {
+  border: 1px solid black;
+  padding: 0px 20px;
+  background-color: antiquewhite;
+}
+
+.selectBookDiv {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  padding: 10px;
+  .selectBook {
+    width: 400px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 3px;
+  }
+}
