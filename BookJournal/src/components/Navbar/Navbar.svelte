@@ -35,8 +35,5 @@
             <p class="noTop">&emsp;{currentDateTime} &emsp;|&emsp; {daysSinceBeginning} days since beginning, {daysActive} days active</p>
         </div>
     </div>
-    <div class="navbarRightComponents"> 
-        <button class="navbarButton">Library</button>
-        <button class="navbarButton">Journals</button>
-    </div>
+    
 </div>
