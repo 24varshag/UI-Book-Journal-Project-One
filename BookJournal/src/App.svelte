@@ -256,9 +256,7 @@
     <Content bind:allBooks={allBooks} bind:selectedBook bind:ratingBook />
     <!-- <h1>{totalFinishedBooks}</h1> -->
 
-    <div id="footer">
-      <p>&copy; Copyright 2011</p>
-    </div>
+   
   </div>
 </main>
 
